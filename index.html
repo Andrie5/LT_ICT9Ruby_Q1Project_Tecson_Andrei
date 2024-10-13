@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<head>
+   
+    <title>Project</title>
+    <style>
+        body { 
+        	font-family: "Comic Sans MS", sans-serif; 
+        	margin: 0; 
+        	padding: 0;
+        	background: lightgray;
+        }
+        header { 
+        	background: gray; 
+        	padding: 10px; 
+        	text-align: center;
+        }
+        nav { 
+        	margin: 40 40px;
+        }
+        nav a { 
+        	margin: 80px; 
+        	text-decoration: none; 
+        	color: black; 
+        }
+        textarea{
+        	text-align: center;
+        }
+        .stuff{
+        	margin: 200px; 
+        	padding: 20px; 
+        	text-align: center;
+        }
+     
+        .search-bar {
+         	margin: 10px; height: 1px; width: 100px;
+        }
+        .product-gallery { 
+        	display: flex; 
+        	flex-wrap: wrap; 
+        	justify-content: center;
+
+       
+        .product { 
+            margin: 20px; 
+            text-align: center; 
+        }
+        h1 {
+        	text-align: center;
+        }
+        .container{
+			background-color: blue;
+			padding: 20px;
+			border: 2px solid orange;
+			border-radius: 8px;
+			width: 320px;
+			text-align: center;
+			margin-top: 20px;
+		}
+     		
+		
+      
+    </style>
+</head>
+
+<body>
+	<header>
+	<h4 style="margin-left: 980px">Log In l Sign up l Account ▼ l Cart: 0</h4>
+	<img src="title.png" alt="title" width="130" align="left"> 
+	<textarea cols="120" rows="1"></textarea>
+    <button value="submit" style="color: black; border-color: black; background-color: white; position: absolute; border-radius: 5px;" required>Search</button>
+	</header>
+	<header>
+        <nav>
+        <div class="Stuff">
+            <a href="#home">Home</a>
+            <a href="#products">Products</a>
+            <a href="#aboutus">About Us</a>
+            <a href="#contact">Contact</a>
+        </div>
+        </nav>
+ 	</header>
+
+
+    <img src="hero.png" alt="Featured Product" width="1310" align="center"> <br>
+
+    <center><h1 id="products" style="font-family: Futura; color: darkblue">Products</h1><center>
+    <section class="product-gallery">
+        <div class="product"><img src="headphones.png" alt="Product 1" width="200" height="220" border="2"><p><strong>Averon Headphones</strong></p><p>P2300</p></div>
+        <div class="product"><img src="controller.png" alt="Product 2" width="230" height="220" border="2"><p><strong>Averon Controller</strong></p><p>P3245</p></div>
+    </section>
+    <br>
+    <center><h1 id="aboutus" style=" font-family: Futura; color: darkblue">About Us</h1></center>
+    <div class="container"> <p> An up and coming tech store ready to make your days shine better with our products! </p> </div>
+    <br>
+    <br>
+    <br>	
+    <header>
+    <center><h1 id="contact" style=" font-family: Contact Us; color: darkblue">Contact</h1></center>
+    <form>
+			<label for="fname">Email/Number:</label> <br>
+			<input type= "text" id="Username" name="Username">
+			</div>	
+			<br>
+
+		
+			<label for="Password">Feedback:</label> <br>
+			<input type= "Password" id="password" name="Password"> 
+		
+
+			<br>
+		
+			<button value="Submit"> Submit </button>
+	</header>
+	</form>
+</body>
+</html>
